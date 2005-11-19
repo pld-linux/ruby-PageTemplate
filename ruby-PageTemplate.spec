@@ -1,6 +1,3 @@
-%define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
-%define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
-%define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
 Summary:	Ruby PageTemplate library
 Summary(pl):	Biblioteka PageTemplate dla jêzyka Ruby
 Name:		ruby-PageTemplate
@@ -12,6 +9,7 @@ Source0:	http://rubyforge.org/frs/download.php/5403/PageTemplate-%{version}.tar.
 # Source0-md5:	2295464231d1b38be94441b9d98accae
 Source1:	setup.rb
 URL:		http://coolnamehere.com/products/pagetemplate/
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 BuildRequires:	setup.rb
@@ -37,10 +35,9 @@ Ma wiele mo¿liwo¶ci wspólnych z innymi silnikami szablonów.
 
 %prep
 %setup -q -n PageTemplate
+cp %{_datadir}/setup.rb .
 
 %build
-cp /usr/share/setup.rb .
-
 ruby setup.rb config \
 	--rbdir=%{ruby_rubylibdir} \
 	--sodir=%{ruby_archdir}
