@@ -10,7 +10,6 @@ Source0:	http://rubyforge.org/frs/download.php/5403/PageTemplate-%{version}.tar.
 Source1:	setup.rb
 URL:		http://coolnamehere.com/products/pagetemplate/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 BuildRequires:	setup.rb
 Requires:	ruby-modules
