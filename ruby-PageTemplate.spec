@@ -2,7 +2,7 @@ Summary:	Ruby PageTemplate library
 Summary(pl):	Biblioteka PageTemplate dla jêzyka Ruby
 Name:		ruby-PageTemplate
 Version:	2.1.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/5403/PageTemplate-%{version}.tar.gz
@@ -10,10 +10,10 @@ Source0:	http://rubyforge.org/frs/download.php/5403/PageTemplate-%{version}.tar.
 Source1:	setup.rb
 URL:		http://coolnamehere.com/products/pagetemplate/
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 BuildRequires:	setup.rb
-Requires:	ruby
+Requires:	ruby-modules
 #BuildArch: noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
