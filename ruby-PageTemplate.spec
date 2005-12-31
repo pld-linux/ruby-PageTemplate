@@ -12,7 +12,7 @@ URL:		http://coolnamehere.com/products/pagetemplate/
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 BuildRequires:	setup.rb
-%ruby_mod_ver_requires_eq
+%{?ruby_mod_ver_requires_eq}
 #BuildArch: noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
