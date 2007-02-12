@@ -1,5 +1,5 @@
 Summary:	Ruby PageTemplate library
-Summary(pl):	Biblioteka PageTemplate dla jÍzyka Ruby
+Summary(pl.UTF-8):   Biblioteka PageTemplate dla jƒôzyka Ruby
 Name:		ruby-PageTemplate
 Version:	2.1.2
 Release:	2
@@ -24,13 +24,13 @@ of similar applications. It is inspired by, yet almost entirely
 unlike, the HTML::Template package available for Perl. It has many
 features in common with other templating engines.
 
-%description -l pl
-PageTemplate to pakiet dla jÍzyka Ruby umoøliwiaj±cy wykorzystywanie
-szablonÛw tekstowych dla projektÛw WWW. Jest przeznaczony g≥Ûwnie do
-uøywania w ∂rodowisku CGI, ale zosta≥ zaprojektowany takøe by by≥
-uøyteczny w szerokim zakresie podobnych zastosowaÒ. Jest zainspirowany
-jednak prawie ca≥kowicie odmiennym pakietem perlowym HTML::Template.
-Ma wiele moøliwo∂ci wspÛlnych z innymi silnikami szablonÛw.
+%description -l pl.UTF-8
+PageTemplate to pakiet dla jƒôzyka Ruby umo≈ºliwiajƒÖcy wykorzystywanie
+szablon√≥w tekstowych dla projekt√≥w WWW. Jest przeznaczony g≈Ç√≥wnie do
+u≈ºywania w ≈õrodowisku CGI, ale zosta≈Ç zaprojektowany tak≈ºe by by≈Ç
+u≈ºyteczny w szerokim zakresie podobnych zastosowa≈Ñ. Jest zainspirowany
+jednak prawie ca≈Çkowicie odmiennym pakietem perlowym HTML::Template.
+Ma wiele mo≈ºliwo≈õci wsp√≥lnych z innymi silnikami szablon√≥w.
 
 %prep
 %setup -q -n PageTemplate
