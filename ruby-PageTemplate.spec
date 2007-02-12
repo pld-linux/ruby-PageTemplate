@@ -1,5 +1,5 @@
 Summary:	Ruby PageTemplate library
-Summary(pl.UTF-8):   Biblioteka PageTemplate dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka PageTemplate dla języka Ruby
 Name:		ruby-PageTemplate
 Version:	2.1.2
 Release:	2
