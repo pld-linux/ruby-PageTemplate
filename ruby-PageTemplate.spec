@@ -45,6 +45,7 @@ ruby setup.rb setup
 
 rdoc -o rdoc lib --inline-source
 rdoc --ri lib -o ri
+rm ri/created.rid
 
 %install
 rm -rf $RPM_BUILD_ROOT
